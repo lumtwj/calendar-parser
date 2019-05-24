@@ -37,7 +37,7 @@ class Calendar:
         return json.dumps({
             "year": self.year,
             "version": self.calendar_version,
-            "calendar_name": self.calendar_name,
-            "calendar_timezone": self.timezone,
+            "name": self.calendar_name,
+            "timezone": self.timezone,
             "data": self.events
         })

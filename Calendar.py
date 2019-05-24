@@ -39,5 +39,5 @@ class Calendar:
             "version": self.calendar_version,
             "calendar_name": self.calendar_name,
             "calendar_timezone": self.timezone,
-            "json": self.events
+            "data": self.events
         })

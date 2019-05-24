@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9147bc4b-5d98-4e56-80f9-135d32125a1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Calendar.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calendar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/calendar_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/public_holidays_sg.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/public_holidays_sg.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +15,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calendar_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="45">
               <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -29,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Calendar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="496">
+              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -180,22 +178,14 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/holidays.json" />
-    <entry file="file://$PROJECT_DIR$/json/public_holidays_singapore.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="491" selection-start-column="487" selection-end-column="491" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/public_holidays_singapore_2019.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/json/public_holidays_singapore.json" />
+    <entry file="file://$PROJECT_DIR$/json/public_holidays_singapore_2019.json" />
     <entry file="file://$PROJECT_DIR$/json/public_holidays_sg.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/calendar_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="45">
           <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -205,8 +195,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Calendar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="496">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
         </state>
       </provider>
     </entry>

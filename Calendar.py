@@ -2,9 +2,10 @@ import json
 
 
 class Calendar:
-    def __init__(self, raw, year):
+    def __init__(self, raw, year, calendar_version):
         self.raw = raw
         self.year = year
+        self.calendar_version = calendar_version
         self.version = None
         self.calendar_name = None
         self.timezone = None
@@ -35,6 +36,7 @@ class Calendar:
 
         return json.dumps({
             "year": self.year,
+            "version": self.calendar_version,
             "calendar_name": self.calendar_name,
             "calendar_timezone": self.timezone,
             "json": self.events

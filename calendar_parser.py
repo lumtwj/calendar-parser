@@ -2,7 +2,7 @@ import requests
 from Calendar import Calendar
 
 url = 'https://www.mom.gov.sg/~/media/mom/documents/employment-practices/public-holidays/public-holidays-sg-2019.ics'
-calendar = Calendar(requests.get(url).text, 2019)
+calendar = Calendar(requests.get(url).text, 2019, 1)
 
 events = calendar.parse()
 # calendar_name = calendar.calendar_name.replace(' ', '_').lower()

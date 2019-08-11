@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9147bc4b-5d98-4e56-80f9-135d32125a1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calendar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calendar.py" beforeDir="false" afterPath="$PROJECT_DIR$/ics_calendar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/calendar_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/public_holidays_sg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/public_holidays_sg_2019.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +28,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="43" />
-    <option name="width" value="1260" />
-    <option name="height" value="737" />
   </component>
   <component name="ProjectId" id="1PG2vglmzHY16X63wNuBEsQ7M33" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

@@ -1,4 +1,5 @@
 import json
+from shutil import copyfile
 
 
 class Calendar:
@@ -19,6 +20,8 @@ class Calendar:
             public_holidays = calendar['data']
 
             if self.year > calendar_year:
+                file_name_index = json_calendar.rfind('.')
+                copyfile(json_calendar, json_calendar[:file_name_index] + '_' + str(calendar_year) + '.json')
                 for public_holiday in public_holidays:
                     date = public_holiday['date']
 

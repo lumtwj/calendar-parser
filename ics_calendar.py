@@ -18,6 +18,7 @@ class Calendar:
             calendar = json.load(f)
             calendar_year = calendar['year']
             public_holidays = calendar['data']
+            version = calendar['version']
 
             if self.year > calendar_year:
                 file_name_index = json_calendar.rfind('.')
@@ -30,7 +31,7 @@ class Calendar:
                         self.events.append(public_holiday)
 
                 self.last_unique_index = public_holidays[len(public_holidays) - 1]['uid']
-                self.calendar_version += 1
+                self.calendar_version = version + 1
 
     def parse(self):
         name = None

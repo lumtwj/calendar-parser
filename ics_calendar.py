@@ -32,6 +32,16 @@ class Calendar:
 
                 self.last_unique_index = public_holidays[len(public_holidays) - 1]['uid']
                 self.calendar_version = version + 1
+            else:
+                for public_holiday in public_holidays:
+                    date = public_holiday['date']
+
+                    if calendar_year - 1 == (int(date[0:4])):
+                        print(public_holiday)
+                        self.events.append(public_holiday)
+
+                    self.last_unique_index = self.events[len(self.events) - 1]['uid']
+                    self.calendar_version = version
 
     def parse(self):
         name = None

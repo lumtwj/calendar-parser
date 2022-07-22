@@ -1,10 +1,14 @@
 import json
 from shutil import copyfile
+import requests
 
 
 class Calendar:
-    def __init__(self, raw, year, ):
-        self.raw = raw
+    def __init__(self, year):
+        url = 'https://www.mom.gov.sg/-/media/mom/documents/employment-practices/public-holidays/public-holidays-sg' \
+              '-{year}.ics'.format(year=year)
+
+        self.raw = requests.get(url).text
         self.year = year
         self.calendar_version = 1
         self.version = None

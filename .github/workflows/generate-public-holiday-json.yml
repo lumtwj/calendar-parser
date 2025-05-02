@@ -27,6 +27,9 @@ jobs:
     - name: List "json" directory
       run: ls ./json
 
+    - name: Prints git status
+      run: git status
+
     - name: Check for new changes to commit and push
       run: |
         git status | grep -q 'nothing to commit' || echo "CHANGES=true" >> $GITHUB_ENV

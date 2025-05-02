@@ -2,7 +2,7 @@ from ics_calendar import Calendar
 
 public_holiday_json = './json/public_holidays_sg.json'
 
-calendar = Calendar(2023)
+calendar = Calendar(2025)
 calendar.load_json(public_holiday_json)
 events = calendar.parse()
 

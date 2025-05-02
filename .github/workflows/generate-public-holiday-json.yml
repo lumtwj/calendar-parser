@@ -24,10 +24,7 @@ jobs:
       run: python calendar_parser.py
 
     - name: List "json" directory
-      run: ls ./json
-
-    - name: Prints patched environment file
-      run: cat setup-miniconda-patched-environment.yml
+      run: ls ./json  
 
     - name: Check for new changes to commit and push
       run: |

@@ -18,7 +18,6 @@ jobs:
       with:
         activate-environment: calendar-parser
         environment-file: environment.yml
-        python-version: 3.12.9
         auto-activate-base: false
 
     - name: Generate public holiday JSON

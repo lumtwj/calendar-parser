@@ -27,8 +27,8 @@ jobs:
     - name: List "json" directory
       run: ls ./json
 
-    - name: Prints git status
-      run: git status
+    - name: Prints patched environment file
+      run: cat setup-miniconda-patched-environment.yml
 
     - name: Check for new changes to commit and push
       run: |

@@ -5,6 +5,17 @@ on:
     branches:
   schedule:
     - cron: '0 15 * * *'
+  workflow_dispatch:
+      inputs:
+        logLevel:
+          description: 'Log level'
+          required: true
+          default: 'warning'
+          type: choice
+          options:
+          - info
+          - warning
+          - debug
 permissions:
   contents: write
 jobs:
